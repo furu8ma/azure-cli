@@ -1,0 +1,7 @@
+version: '3'
+services:
+  az:
+    build: .
+    volumes:
+      - .:/root
+      - /var/run/docker.sock:/var/run/docker.sock
